@@ -1,7 +1,7 @@
 # Image-Search
 This is an image search application developed with OpenCV's python interface. The user inputs an image of a monument and the applicaion searches for similar images and displays them. It uses SIFT algorithm for keypoint detection.Its GUI was designed with PyQt.
 
-The popgui.py file contains the main code. The popsift.py contains code for using OpenCV's inbuilt SIFT algorithm. writekp.py contains code to store keypoints of each of the images in the database to a file.This tutorial assumes that you have OpenCV installed.For OpenCV installation,visit http://goo.gl/OuJ1SW .To run the application, perform the following -
+The popgui.py file contains the main code. The popsift.py contains code for using OpenCV's inbuilt SIFT algorithm. writekp.py contains code to store keypoints of each of the images in the database to a file.The instructions below assume that you have OpenCV installed.For OpenCV installation,visit http://goo.gl/OuJ1SW .To run the application, perform the following -
 
 1.Make a folder monumentsdb which has images of monuments.Use name of the monument as name of the image.
 
